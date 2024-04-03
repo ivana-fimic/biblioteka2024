@@ -39,5 +39,10 @@ public int getIzdanje() {
 public void setIzdanje(int izdanje) {
 	this.izdanje = izdanje;
 }
+@Override
+public String toString() {
+	return "Knjiga [naslov=" + naslov + ", isbn=" + isbn + ", autori=" + autori + ", izdavac=" + izdavac + ", izdanje="
+			+ izdanje + "]";
+}
 
 }
